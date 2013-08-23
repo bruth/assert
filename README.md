@@ -6,12 +6,12 @@ with improved support for things like nil pointers, etc.
 [Documentation][docs]
 
 [original]: http://github.com/bmizerany/assert
-[docs]: http://godoc.org/github.com/stvp/assert
+[docs]: http://godoc.org/github.com/bruth/assert
 
 Installation
 ------------
 
-    $ go get github.com/stvp/assert
+    $ go get github.com/bruth/assert
 
 API
 ---
@@ -32,7 +32,7 @@ Example
 ```go
 package main
 
-import "github.com/stvp/assert"
+import "github.com/bruth/assert"
 
 type CoolStruct struct{}
 
@@ -70,7 +70,7 @@ exit status 1
 FAIL	github.com/foo/bar	0.017s
 ```
 
-[assert_test]: https://github.com/stvp/assert/blob/master/assert_test.go
+[assert_test]: https://github.com/bruth/assert/blob/master/assert_test.go
 
 License
 -------
